@@ -77,5 +77,6 @@ int main()
 	oper->numberA=9;
 	oper->numberB=99;
 	cout<<oper->getResult()<<endl;
+	delete oper;
 	return 0;
 }
